@@ -45,10 +45,15 @@ To find out more about the Rest-APIs please see swagger/OpenAPI docs below
   ```
 
 - Meaning:
+
   y = Predicted cumulative balance
+  
   m = Slope of the trend line (calculated from past data)
+  
   x = Number of days since the start date of the historical period
+  
   b = Y-intercept (starting balance)
+  
 
 ### Why Hexagonal Architecture?
 - Hexagonal Architecture provides a lot of benefits for this kind of micro-service:
