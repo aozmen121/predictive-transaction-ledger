@@ -38,8 +38,8 @@ To find out more about the Rest-APIs please see swagger/OpenAPI docs below
 - In this case I've used linear regression as a best-fit line that models the relationship between time (days) and cumulative balance:
   - X-axis: Represents time (in days) since the start of the historical period.
   - Y-axis: Represents the cumulative balance at each transaction point.
+  
   The linear regression formula used to predict future balance:
-
   ```
     y=mx+b
   ```
