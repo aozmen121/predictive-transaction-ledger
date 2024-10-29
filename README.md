@@ -19,10 +19,10 @@ Users can query their account balance at any point in time based on future prese
 Past and Present Dates: Retrieves balances based on existing transaction history.
 Future Dates: Uses linear regression to predict the future balance based on historical transaction patterns.
 
-Account Management Rest-APIs:
+- Account Management Rest-APIs:
 Ability to add new accounts to persist
 
-Transaction Management Rest-APIs:
+- Transaction Management Rest-APIs:
 Ability to add new transaction against a given account to persist
 
 To find out more about the Rest-APIs please see swagger/OpenAPI docs below
@@ -36,8 +36,8 @@ To find out more about the Rest-APIs please see swagger/OpenAPI docs below
 
 ## How Linear Regression when predicting future ledger
 - In this case I've used linear regression as a best-fit line that models the relationship between time (days) and cumulative balance:
-  X-axis: Represents time (in days) since the start of the historical period.
-  Y-axis: Represents the cumulative balance at each transaction point.
+  - X-axis: Represents time (in days) since the start of the historical period.
+  - Y-axis: Represents the cumulative balance at each transaction point.
   The linear regression formula used to predict future balance:
 
   ```
